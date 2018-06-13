@@ -10,8 +10,7 @@ def prime?(number)
         array << "false"
       end
     end
-    var = array.include?("true")
-    return not var
+    not array.include?("true")
   elsif number == 2
     return true
   elsif number <= 1
